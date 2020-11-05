@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body {
+  font-family: 'Open Sans', serif, sans-serif;   
+  font-size: 16px;
+  overflow-x: hidden; 
+  background-color: #090809;
+}
+
+.container {
+  @include min-max(320px, 100%, 0);
+}
+
+.wrap { 
+  @include min-max(320px, 1200px, 15px);
+}
+
+p {
+  color: $black;
+}
+ 
