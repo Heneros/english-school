@@ -1,14 +1,20 @@
-import $ from 'jquery';
-import slick from 'slick-carousel';
+(function () {
+    const slides = document.querySelectorAll('.slider__item');
+
+    const activeClass = 'slider__item--visible';
  
-      
-    
-    $('.slider').slick({
-        infinite: true, 
-        slidesToShow: 1,
-        arrows: true,
-        dots: true,     
-        // autoplay: true,
-        // autoplaySpeed: 2000,
-    });
+    let index = 0;
+
+    setInterval(function(){
+        slides[index].classList.remove(activeClass);
+        index++;
  
+        if(index + 1 > slides.length){
+            index = 0;
+        }
+        slides[index].classList.add(activeClass);
+ 
+    }, 3454000)  
+ 
+ 
+ }()); 
