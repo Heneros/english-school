@@ -1,7 +1,10 @@
 @charset "UTF-8"; 
-
-  
-@import "mixins";   
-@import "variables";   
-  
-@import "core";       
+     
+           
+@import "mixins";        
+@import "variables";             
+@import "reset";   
+@import "core";             
+     
+@import "blocks/header";        
+@import "blocks/hero";   

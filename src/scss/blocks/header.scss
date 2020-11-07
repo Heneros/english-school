@@ -1,0 +1,33 @@
+header {
+    height: 45px;
+    width: auto; 
+    margin: 0 auto;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+.logo{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+    ul {
+        display: flex;
+        li {
+            padding-right: 15px;
+            // padding-top: 3px;
+            a {
+                text-decoration: none;
+                color: black;
+           
+                &:hover { 
+                    border-bottom: 7px solid red;
+                }
+            }
+        }
+    }  
+    
+}

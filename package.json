@@ -20,6 +20,7 @@
     "@babel/preset-env": "^7.12.1",
     "babel-loader": "^8.1.0",
     "browser-sync": "^2.26.12",
+    "clean-css": "^4.2.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-cheerio": "^1.0.0",
